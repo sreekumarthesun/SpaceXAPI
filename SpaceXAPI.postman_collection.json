@@ -1,0 +1,194 @@
+{
+	"info": {
+		"_postman_id": "0c658c33-3768-4ead-a33d-93cd359708f4",
+		"name": "SpaceXAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET launch with flight number",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.spacexdata.com/v3/launches?flight_number=127",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spacexdata",
+						"com"
+					],
+					"path": [
+						"v3",
+						"launches"
+					],
+					"query": [
+						{
+							"key": "flight_number",
+							"value": "127"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET launch with flight name",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.spacexdata.com/v3/launches?name=Starlink-26 (v1.0) + Capella-6 + Tyvak-0130",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spacexdata",
+						"com"
+					],
+					"path": [
+						"v3",
+						"launches"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Starlink-26 (v1.0) + Capella-6 + Tyvak-0130"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET All launches",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.spacexdata.com/v3/launches/latest",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spacexdata",
+						"com"
+					],
+					"path": [
+						"v3",
+						"launches",
+						"latest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET next launches",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.spacexdata.com/v3/launches/latest",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spacexdata",
+						"com"
+					],
+					"path": [
+						"v3",
+						"launches",
+						"latest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET latest launches",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.spacexdata.com/v3/launches/latest",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spacexdata",
+						"com"
+					],
+					"path": [
+						"v3",
+						"launches",
+						"latest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET past launches",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.spacexdata.com/v3/launches/latest",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spacexdata",
+						"com"
+					],
+					"path": [
+						"v3",
+						"launches",
+						"latest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET upcoming launches",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.spacexdata.com/v3/launches/latest",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spacexdata",
+						"com"
+					],
+					"path": [
+						"v3",
+						"launches",
+						"latest"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
